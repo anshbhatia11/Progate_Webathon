@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.logo{
+  height: 90px;
+  width: 180px;
+  margin-left: 10px;
+}
+
+a{
+  text-decoration: none;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.container{
+  widht:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+header{
+  background-color: rgb(253, 209,1);
+  height: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index:0;
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float : right;
+  margin-right: -15px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 20px;
+  font-weight: bold;
+  color: rgb(2,2,2);
+  display: block;
+  float: left;
+  transition : all 0.5s;
+  font-size: 18px;
+  font-family: sans-serif;
+  align: center;
+}
+
+body{
+  background-color: rgb(2,2,2);
+}
+
+.top-wrapper{
+  padding: 180px 0 100px 0;
+  background-image: url(img/background.png);
+  background-size: cover;
+  color: Yellow;
+  text-align: center;
+}
+
+.top-wrapper h1{
+  font-size: 38px;
+  letter-spacing: 4px;
+}
+
+.top-wrapper p{
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-style: bold;
+  font-family: cursive;
+}
+
+.lesson-wrapper{
+  padding-bottom: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.lesson-icon{
+  position: static;
+}
+
+.lesson-icon img{
+  height:80px;
+  width:80px;
+
+}
+
+.lesson-icon p{
+  width:100%;
+  font-size: 18px;
+  color: rgb(253,209,1);
+  font-weight: bold;
+}
+
+.text-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+  font-family: sans-serif;
+  padding-bottom: 80px;
+}
+
+.lesson{
+  float: left;
+  width: 25%
+}
+
+.btn{
+  padding: 10px 20px;
+  color: rgb(2,2,2);
+  font-weight: bold;
+  font-family: sans-serif;
+  display: inline-block;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 6px #FAFFC6;
+}
+
+.btn:active{
+  position: relative;
+  top:6px;
+  box-shadow: none;
+}
+
+.message-wrapper{
+  padding: 15px 40px;
+  cursor: pointer;
+  text-align:center;
+}
+
+.heading{
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align:center;
+  font-family: sans-serif;
+}
+
+.heading h2{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.heading a{
+  color: #F6FF9E;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.html,.java,.python,.javascript {
+  background-color: rgb(253,209,1);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: rgb(253,209,1);
+  padding: 0 10px;
+}
+
+.logo1{
+  margin-top: 10px;
+  height: 55px;
+}
+
+.footer-left{
+  background-color: rgb(253,209,1);
+  float: left;
+}
+
+.footer-right{
+  background-color: rgb(253,209,1);
+  font-family: inherit;
+  padding: 10px 0;
+}
