@@ -63,9 +63,9 @@ body{
 
 .top-wrapper{
   padding: 180px 0 100px 0;
-  background-image: url(img/background.png);
+  background-image: url(img/background2.jpg);
   background-size: cover;
-  color: Yellow;
+  color: white;
   text-align: center;
 }
 
@@ -82,92 +82,30 @@ body{
   font-family: 'Alegreya SC';
 }
 
-.lesson-wrapper{
-  padding-bottom: 60px;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
+.intro-wrapper{
+  color:white;
 }
 
-.lesson-icon{
-  position: static;
+.intro-wrapper p{
+  font-family: 'Architects Daughter';
 }
 
-.lesson-icon img{
-  height:80px;
-  width:80px;
-
+.intro-wrapper h1{
+  font-family: 'Alegreya SC';
 }
 
-.lesson-icon p{
-  width:100%;
-  font-size: 18px;
+.intro-wrapper h3{
+  font-family: 'Architects Daughter';
   color: rgb(253,209,1);
-  font-weight: bold;
 }
 
-.text-contents{
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: white;
-  font-family: sans-serif;
-  padding-bottom: 80px;
+.programminglanguage{
+  margin-left: 320px;
+  height: 300px;
 }
 
-.lesson{
-  float: left;
-  width: 25%
-}
-
-.btn{
-  padding: 10px 20px;
-  color: rgb(2,2,2);
-  font-weight: bold;
-  font-family: sans-serif;
-  display: inline-block;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: 0 6px #FAFFC6;
-}
-
-.btn:active{
-  position: relative;
-  top:6px;
-  box-shadow: none;
-}
-
-.message-wrapper{
-  padding: 15px 40px;
-  cursor: pointer;
-  text-align:center;
-}
-
-.heading{
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 60px;
-  text-align:center;
-  font-family: sans-serif;
-}
-
-.heading h2{
-  text-align: center;
-  margin-top: 30px;
-}
-
-
-.heading a{
-  color: #F6FF9E;
-  cursor: pointer;
-  font-family: 'Aref Ruqaa';
-}
-
-.html,.java,.python,.javascript {
-  background-color: rgb(253,209,1);
-  font-weight: bold;
-  font-family: sans-serif;
+.youtube{
+  margin-left: 320px;
 }
 
 footer {
@@ -189,4 +127,9 @@ footer {
   background-color: rgb(253,209,1);
   font-family: inherit;
   padding: 10px 0;
+}
+
+a{
+  text-decoration: none;
+  color: #F6FF9E;
 }

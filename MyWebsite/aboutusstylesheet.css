@@ -63,9 +63,9 @@ body{
 
 .top-wrapper{
   padding: 180px 0 100px 0;
-  background-image: url(img/background.png);
+  background-image: url(img/background2.jpg);
   background-size: cover;
-  color: Yellow;
+  color: white;
   text-align: center;
 }
 
@@ -82,40 +82,41 @@ body{
   font-family: 'Alegreya SC';
 }
 
-.btn-wrapper{
-  text-align: center;
-  margin: 15px 0;
+.intro-wrapper{
+  color:white;
 }
 
-.learning{
-  background-color: rgb(253,209,1);
+.intro-wrapper{
+  font-family: 'Architects Daughter';
 }
 
-.btn{
-  padding: 10px 20px;
-  color: rgb(2,2,2);
-  font-weight: bold;
-  font-family: sans-serif;
-  display: inline-block;
-  border-radius: 5px;
-  text-align: center;
-  box-shadow: 0 6px #FAFFC6;
+.intro-wrapper h1{
+  font-family: 'Alegreya SC';
 }
 
-.btn:active{
-  position: relative;
-  top:6px;
-  box-shadow: none;
+.intro-wrapper h3{
+  font-family: 'Architects Daughter';
+  color: rgb(253,209,1);
+}
+
+.programminglanguage{
+  margin-left: 320px;
+  height: 300px;
+}
+
+.youtube{
+  margin-left: 320px;
 }
 
 .lesson-wrapper{
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(253,209,1);
   transition: all 0.5s;
+  font-family: 'Bai Jamjuree';
+  margin-bottom: 100px;
+  margin-top: 40px;
 }
 
 .lesson-icon{
@@ -123,8 +124,8 @@ body{
 }
 
 .lesson-icon img{
-  height:80px;
-  width:80px;
+  height:55px;
+  width:160px;
 
 }
 
@@ -136,7 +137,12 @@ body{
   font-family: 'Audiowide';
 }
 
-.text-contents{
+.lesson{
+  float: left;
+  width: 50%;
+}
+
+.text-contents p{
   width: 80%;
   display: inline-block;
   margin-top: 15px;
@@ -145,43 +151,6 @@ body{
   font-family: 'Bai Jamjuree';
   letter-spacing: 1.5px;
   padding-bottom: 80px;
-}
-
-.lesson{
-  float: left;
-  width: 25%
-}
-
-.message-wrapper{
-  padding: 15px 40px;
-  cursor: pointer;
-  text-align:center;
-}
-
-.heading{
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 60px;
-  text-align:center;
-  font-family: sans-serif;
-}
-
-.heading h2{
-  text-align: center;
-  margin-top: 30px;
-}
-
-
-.heading a{
-  color: #F6FF9E;
-  cursor: pointer;
-  font-family: 'Aref Ruqaa';
-}
-
-.html,.java,.python,.javascript {
-  background-color: rgb(253,209,1);
-  font-weight: bold;
-  font-family: sans-serif;
 }
 
 footer {
