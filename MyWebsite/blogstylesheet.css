@@ -26,6 +26,10 @@ a{
   max-width: 1170px;
 }
 
+.header-right a:hover{
+  color: rgb(12,22,200);
+}
+
 header{
   background-color: rgb(253, 209,1);
   height: auto;

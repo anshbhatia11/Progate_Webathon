@@ -75,6 +75,10 @@ body{
   font-family: 'Chau Philomene One';
 }
 
+.header-right a:hover{
+  color: rgb(12,22,200);
+}
+
 .top-wrapper p{
   font-size: 20px;
   letter-spacing: 2px;

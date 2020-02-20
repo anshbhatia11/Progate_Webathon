@@ -97,6 +97,10 @@ body{
   font-family: 'Alegreya SC';
 }
 
+.header-right a:hover{
+  color: rgb(12,22,200);
+}
+
 .intro-wrapper h2{
   text-decoration: none;
   color: rgb(253,209,1);

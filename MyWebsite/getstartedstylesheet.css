@@ -69,6 +69,10 @@ body{
   text-align: center;
 }
 
+.header-right a:hover{
+  color: rgb(12,22,200);
+}
+
 .top-wrapper h1{
   font-size: 38px;
   letter-spacing: 4px;

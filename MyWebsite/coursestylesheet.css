@@ -19,6 +19,10 @@ a{
   padding-bottom: 10px;
 }
 
+.header-right a:hover{
+  color: rgb(12,22,200);
+}
+
 .container{
   widht:100%;
   padding: 0 15px;

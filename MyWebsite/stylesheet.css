@@ -57,6 +57,10 @@ header{
   align: center;
 }
 
+.header-right a:hover{
+  color: rgb(12,22,200);
+}
+
 body{
   background-color: rgb(2,2,2);
 }
