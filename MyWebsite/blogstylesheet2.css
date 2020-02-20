@@ -61,6 +61,7 @@ body{
   background-color: rgb(2,2,2);
 }
 
+
 .top-wrapper{
   padding: 180px 0 100px 0;
   background-image: url(img/background2.jpg);
@@ -84,74 +85,25 @@ body{
 
 .intro-wrapper{
   color:white;
+  text-decoration: none;
 }
 
-.intro-wrapper{
+.intro-wrapper p{
   font-family: 'Bai Jamjuree';
+  font-size: 20px;
 }
 
 .intro-wrapper h1{
   font-family: 'Alegreya SC';
 }
 
-.intro-wrapper h3{
-  font-family: 'Bai Jamjuree';
+.intro-wrapper h2{
+  text-decoration: none;
   color: rgb(253,209,1);
-}
-
-.programminglanguage{
-  margin-left: 320px;
-  height: 300px;
-}
-
-.youtube{
-  margin-left: 320px;
-}
-
-.lesson-wrapper{
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
-  transition: all 0.5s;
   font-family: 'Bai Jamjuree';
-  margin-bottom: 100px;
-  margin-top: 40px;
+  font-size: 30px;
 }
 
-.lesson-icon{
-  position: static;
-}
-
-.lesson-icon img{
-  height:55px;
-  width:160px;
-
-}
-
-.lesson-icon p{
-  width:100%;
-  font-size: 18px;
-  color: rgb(253,209,1);
-  font-weight: bold;
-  font-family: 'Audiowide';
-}
-
-.lesson{
-  float: left;
-  width: 50%;
-}
-
-.text-contents p{
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 14px;
-  color: white;
-  font-family: 'Bai Jamjuree';
-  letter-spacing: 1.5px;
-  padding-bottom: 80px;
-}
 
 footer {
   background-color: rgb(253,209,1);
@@ -172,4 +124,5 @@ footer {
   background-color: rgb(253,209,1);
   font-family: inherit;
   padding: 10px 0;
+  color: rgb(2,2,2);
 }

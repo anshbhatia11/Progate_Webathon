@@ -82,75 +82,59 @@ body{
   font-family: 'Alegreya SC';
 }
 
-.intro-wrapper{
-  color:white;
-}
-
-.intro-wrapper{
-  font-family: 'Bai Jamjuree';
-}
-
-.intro-wrapper h1{
-  font-family: 'Alegreya SC';
-}
-
-.intro-wrapper h3{
-  font-family: 'Bai Jamjuree';
-  color: rgb(253,209,1);
-}
-
-.programminglanguage{
-  margin-left: 320px;
-  height: 300px;
-}
-
-.youtube{
-  margin-left: 320px;
-}
-
-.lesson-wrapper{
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+.form-wrapper{
   text-align: center;
-  transition: all 0.5s;
-  font-family: 'Bai Jamjuree';
-  margin-bottom: 100px;
-  margin-top: 40px;
 }
 
-.lesson-icon{
-  position: static;
-}
-
-.lesson-icon img{
-  height:55px;
-  width:160px;
-
-}
-
-.lesson-icon p{
-  width:100%;
-  font-size: 18px;
+.form-label{
   color: rgb(253,209,1);
-  font-weight: bold;
+}
+
+.form-field{
+  width: 150px;
+  height: 40px;
+}
+
+.section-title {
+  color: rgb(253,209,1);
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  font-style: 'Audiowide';
+}
+
+.contact-form {
+  padding-top: 50px;
+  color: rgb(253,209,1);
+  font-family: 'Aref Ruqaa';
+}
+
+.contact-form h3{
   font-family: 'Audiowide';
+  font-size: 24px;
 }
 
-.lesson{
-  float: left;
-  width: 50%;
+.contact-form p{
+  font-color: rgb(253,209,1);
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.text-contents p{
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 14px;
-  color: white;
-  font-family: 'Bai Jamjuree';
-  letter-spacing: 1.5px;
-  padding-bottom: 80px;
+input, textarea {
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  border: 1px solid #dee7ec;
+  font-size:18px;
+  font-family:'Chakra Petch';
+}
+
+.contact-submit{
+  background-color:rgb(253,209,1);
+  color:rgb(2,2,2);
+  font-weight: bold;
 }
 
 footer {
